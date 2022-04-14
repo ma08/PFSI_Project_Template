@@ -8,6 +8,8 @@ $exists = false;
 // Database Connection.
 include 'dbconnect.php';
 
+
+//Data fields from the HTML (project.html)
 $first_name = $_POST["signup-firstname"];
 $last_name = $_POST["signup-lastname"];
 $email = $_POST["signup-email"];
@@ -18,23 +20,31 @@ $repassword = $_POST["signup-repassword"];
 // the username is already present 
 // or not in our Database
 $sql = "Select * from users where user_id='$email'";
-$result = mysqli_query($conn, $sql);
-$num = mysqli_num_rows($result);
+
+$result = mysqli_query($conn, $sql); // Execute the query
+$num = mysqli_num_rows($result); // Get the number of rows
+
 if ($num == 0) {
     if (($password == $repassword) && $exists == false) {
 
+        //Insert user into users table
         $sql = "INSERT INTO `users` ( `user_id`, `password`, `first_name`, `last_name`, `address`) VALUES ('$email', '$password', '$first_name', '$last_name', 'NY, NY, 10027')";
+        //Use the fields customized to your database field names
 
+        // Execute the query
         $result = mysqli_query($conn, $sql);
 
+        // Check if the query is executed successfully
         if ($result) {
             $showAlert = true;
         }
     } else {
+        // Passwords do not match
         $showError = "Passwords do not match";
     }
 }
 
+// If the username is already present
 if ($num > 0) {
     $exists = "Username not available";
 }

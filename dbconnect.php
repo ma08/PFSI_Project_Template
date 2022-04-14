@@ -1,6 +1,7 @@
 <?php
 
-$servername = "localhost";
+//Credentials of your SQL server
+$servername = "localhost"; //Will stay the same even uploading to your own server
 $username = "root";
 $password = "root";
 
