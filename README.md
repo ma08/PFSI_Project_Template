@@ -20,6 +20,6 @@
   - password: studentuser 
   - port 22
 
-# [Use Bootstrap Components][https://getbootstrap.com/2.3.2/components.html]
+### [Use Bootstrap Components](https://getbootstrap.com/2.3.2/components.html)
 
-# [Connecting Domain to AWS](https://courseworks2.columbia.edu/courses/143207/discussion_topics/829433)
+### [Connecting Domain to AWS](https://courseworks2.columbia.edu/courses/143207/discussion_topics/829433)
