@@ -23,3 +23,4 @@
 ### [Use Bootstrap Components](https://getbootstrap.com/2.3.2/components.html)
 
 ### [Connecting Domain to AWS](https://courseworks2.columbia.edu/courses/143207/discussion_topics/829433)
+### [Tutorial Video](https://www.youtube.com/watch?v=2RFAKqJ1xWE)
