@@ -1,6 +1,6 @@
 /* These are the main divs which partitions the website into
 various sections  */
-#container {
+.container {
     position: relative;
     width: 80%;
     /*border:1px solid;*/
@@ -10,7 +10,7 @@ various sections  */
 
 }
 
-#header {
+.header {
     position: relative;
     height: 50px;
     padding: 10px;
@@ -18,7 +18,7 @@ various sections  */
     background-color:#FFFEEE;
 }
 
-#bodycontent{
+.bodycontent{
     position: relative;
     height:1700px;
     padding:10px;
@@ -160,7 +160,7 @@ input{
 
 }
 
-#footer {
+.footer {
     position: relative;
     height: 50px;
     padding: 10px;
@@ -179,3 +179,13 @@ input{
     background-color:#FFFEEE;
 }
 
+/* additional menus */
+
+table, th, td {
+    border: 3px double black;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 15px;
+  }
