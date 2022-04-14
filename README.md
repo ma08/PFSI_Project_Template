@@ -1,6 +1,6 @@
 # Setup of Server and Database
 - Get EC2 VM running using the template
-- Use http://<IP Address>/phpmyadmin/ to access SQL database portal
+- Use http://\<Public IP Address\>/phpmyadmin/ to access SQL database portal
   - Username: root
   - Password: root
   - Use "test" database which is already created by default
