@@ -1,4 +1,5 @@
-# Setup of Server and Database
+# SIPA Programming for Social Impact - Spring 2022 - Final Project Template Repository
+## Setup of Server and Database
 - [SQL PHP Tutorial Video](https://www.youtube.com/watch?v=2RFAKqJ1xWE)
 - Get EC2 VM running using the template
 - Use http://\<Public IP Address\>/phpmyadmin/ to access SQL database portal
