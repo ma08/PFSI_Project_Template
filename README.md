@@ -21,6 +21,7 @@
   - port 22
 
 ### Domain Name Setup with AWS
+- [Tutorial Video](https://youtu.be/0JY8KnwPMY0)
 - [AWS nameservers guide](https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/migrate-dns-domain-inactive.html)
   - Create Hosted Zone in AWS with its name as your domain name (from netfirms)
   - [Routing traffic to EC2](https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/routing-to-ec2-instance.html)
