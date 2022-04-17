@@ -30,6 +30,7 @@
 - [Netfirms guide](https://www.netfirms.com/help/article/domain-management-how-to-update-nameservers)
   - Add the nameservers (NS records) from your AWS public hosted zone to netfirms nameservers and remove existing ones. 
 - Test by accessing `www.\<domain name\>`. The `www` is critical.
+- If not working try deleting the old `NS` records in the `DNS records` part in netfirms as well.
 
 ### [Use Bootstrap Components](https://getbootstrap.com/2.3.2/components.html)
 
